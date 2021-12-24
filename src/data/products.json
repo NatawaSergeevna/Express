@@ -1,0 +1,43 @@
+[
+    {
+       "id": 1,
+       "name": "UNOFFICIAL",
+       "img": "https://www.lensmaster.ru/upload/resize_cache/iblock/8f8/320_174_0619711fa078991f0a23d032687646b21/8f887fe57eceabc0942a73a9eb26cccb.png",
+       "price": "₽ 2340"
+    },
+ 
+    {
+       "id": 2,
+       "name": "RALPH",
+       "img": "https://www.lensmaster.ru/upload/resize_cache/iblock/26b/320_174_0619711fa078991f0a23d032687646b21/26b11a017d051c0624e1660f49bbd920.png",
+       "price": "₽ 6435"
+    },
+ 
+    {
+       "id": 3,
+       "name": "SOLARIS",
+       "img": "https://www.lensmaster.ru/upload/resize_cache/iblock/8f8/320_174_0619711fa078991f0a23d032687646b21/8f887fe57eceabc0942a73a9eb26cccb.png",
+       "price": "₽ 2340"
+    },
+ 
+    {
+       "id": 4,
+       "name": "END.",
+       "img": "https://www.lensmaster.ru/upload/resize_cache/iblock/031/320_174_0619711fa078991f0a23d032687646b21/031d31a02229f6731e1bf1918f3eece7.png",
+       "price": "₽ 6990"
+    },
+ 
+    {
+       "id": 5,
+       "name": "DBYB",
+       "img": "https://www.lensmaster.ru/upload/resize_cache/iblock/834/320_174_0619711fa078991f0a23d032687646b21/83498a9c885e7dbc296dda27ea01f250.png",
+       "price": "₽ 3950"
+    },
+ 
+    {
+       "id": 6,
+       "name": "SOLARIS",
+       "img": "https://www.lensmaster.ru/upload/resize_cache/iblock/778/320_174_0619711fa078991f0a23d032687646b21/778094ef283e73308199960413721704.png",
+       "price": "₽ 3550"
+    }
+ ]

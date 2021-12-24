@@ -1,0 +1,36 @@
+<%- include('../fragments/header.ejs'); %>
+
+<section class="shopping-cart">
+    <div id="templateAll">
+      <div class="cart">
+        <div class="heading">Корзина</div>
+        <div class="cart-field">
+          <% products.forEach(product => { %>
+            <div class="catalog__item-bag" id="<%=product.id%>" product-data="<%=JSON.stringify(product)%>">
+              <div class="cross-сlose"  onclick="crossClose(<%= product.id %>);"></div>
+              <div class="catalog__item-wrapper">
+                <div class="catalog__item-content">
+                  <img class="catalog__item-img" src="<%= product.img %>"/>
+                </div>
+              </div>
+              <div class="catalog__item-footerBag">
+                <div class="catalog__item-pricesBag">
+                  <div class="price-for-basket cart__item_bought"><%= product.price %></div>
+                </div>
+              </div>
+            </div>
+            <%  }); %>
+        </div>
+        <div class="cart__footer">
+          <div class="forButton">
+            <button class="closeButton"><a class="closeButtonLink" href="/">Закрыть</a></button>
+            <button class="buyButton">Купить</button>
+          </div>
+          <div class="total__price">Итого: <span id="coast">0</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<%- include('../fragments/footer.ejs'); %> 
